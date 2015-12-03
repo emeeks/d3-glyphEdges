@@ -8,7 +8,7 @@ If you use NPM, `npm install d3-glyphedge`. Otherwise, download the [latest rele
 
 You can install each type of edge separately by importing the particular function.
 
-If you want to do it the old-fashioned way, just download [https://github.com/emeeks/d3-glyphEdges/build/d3-glyphEdge.js](https://github.com/emeeks/d3-glyphEdges/build/d3-glyphEdge.js) or [https://github.com/emeeks/d3-glyphEdges/build/d3-glyphEdge.min.js](https://github.com/emeeks/d3-glyphEdges/build/d3-glyphEdge.min.js).
+If you want to do it the old-fashioned way, just download [d3-glyphEdge.js](https://github.com/emeeks/d3-glyphEdges/blob/master/build/d3-glyphEdge.js) or [d3-glyphEdge.min.js](https://github.com/emeeks/d3-glyphEdges/blob/master/build/d3-glyphEdge.min.js).
 
 ## API Reference
 
