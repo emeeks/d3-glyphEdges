@@ -7,6 +7,7 @@ import {default as taffy} from "./taffy";
 import {default as ribbon} from "./ribbon";
 import {default as particle} from "./particle";
 import {default as lineArc} from "./lineArc";
+import {default as halfArrow} from "./halfArrow";
 
 var d = {
 	arrowhead: arrowhead,
@@ -14,7 +15,8 @@ var d = {
 	nail: nail,
 	taffy: taffy,
 	ribbon: ribbon,
-	lineArc: lineArc
+	lineArc: lineArc,
+	halfArrow: halfArrow
 };
 
 var project = {

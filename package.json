@@ -1,6 +1,6 @@
 {
   "name": "d3-glyphedge",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A collection of different generators for complex edges with D3.",
   "keywords": [
     "d3",
@@ -10,10 +10,10 @@
   "license": "Unlicense",
   "main": "build/d3-glyphEdge.js",
   "jsnext:main": "index",
-  "homepage": "https://github.com/emeeks/d3-glyphEdge",
+  "homepage": "https://github.com/emeeks/d3-glyphEdges",
   "repository": {
     "type": "git",
-    "url": "https://github.com/emeeks/d3-glyphEdge.git"
+    "url": "https://github.com/emeeks/d3-glyphEdges.git"
   },
   "scripts": {
     "pretest": "mkdir -p build && node -e 'process.stdout.write(\"var version = \\\"\" + require(\"./package.json\").version + \"\\\"; export * from \\\"../index\\\"; export {version};\");' > build/bundle.js && rollup -f umd -u d3-glyphEdge -n d3_glyphEdge -o build/d3-glyphEdge.js -- build/bundle.js",
