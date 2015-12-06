@@ -10,7 +10,8 @@ export default function(d, nodeTargetSize, bodySize, headSize) {
 
     var x1 = d.source.x + (headSize * Math.cos(angle1));
     var y1 = d.source.y - (headSize * Math.sin(angle1));
-
+    var x2 = d.source.x + (headSize * Math.cos(angle2));
+    var y2 = d.source.y - (headSize * Math.sin(angle2));
     var x3 = d.target.x - (headSize * Math.cos(angle1));
     var y3 = d.target.y + (headSize * Math.sin(angle1));
 

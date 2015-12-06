@@ -1,6 +1,6 @@
 {
   "name": "d3-glyphedge",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "A collection of different generators for complex edges with D3.",
   "keywords": [
     "d3",

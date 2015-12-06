@@ -16,7 +16,8 @@
 
             var x1 = d.source.x + (headSize * Math.cos(angle1));
             var y1 = d.source.y - (headSize * Math.sin(angle1));
-
+            var x2 = d.source.x + (headSize * Math.cos(angle2));
+            var y2 = d.source.y - (headSize * Math.sin(angle2));
             var x3 = d.target.x - (headSize * Math.cos(angle1));
             var y3 = d.target.y + (headSize * Math.sin(angle1));
 
@@ -291,7 +292,7 @@
         	particle: particle
         }
 
-        var version = "1.1.0";
+        var version = "1.1.1";
 
         exports.version = version;
         exports.d = d;
