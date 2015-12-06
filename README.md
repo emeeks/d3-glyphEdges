@@ -1,5 +1,7 @@
 # d3-glyphedge
 
+![d3-glyphEdge](edges.png "d3-glyphEdge")
+
 A bunch of different edge generators for you to use in any data visualization product where you need to graphically represent the connection of one thing to another, like a network diagram or dendrogram.
 
 [Examples of all the edges](http://bl.ocks.org/emeeks/aaa995cde6621745e906)
