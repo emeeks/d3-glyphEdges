@@ -1,4 +1,4 @@
-import { default as arrowhead } from "./arrowHead";
+import { default as arrowHead } from "./arrowHead";
 import { default as comet } from "./comet";
 import { default as nail } from "./nail";
 import { default as offset } from "./offset";
@@ -10,7 +10,7 @@ import { default as lineArc } from "./lineArc";
 import { default as halfArrow } from "./halfArrow";
 
 var d = {
-  arrowhead: arrowhead,
+  arrowHead: arrowHead,
   comet: comet,
   nail: nail,
   taffy: taffy,
