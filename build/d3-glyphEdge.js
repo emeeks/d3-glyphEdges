@@ -149,7 +149,7 @@
             return "M" + x1 + "," + y1 + "L" + x2 + "," + y2 + " L " + d.source.x + "," + d.source.y + "z";
         };
 
-        function arrowhead(d, nodeTargetSize, bodySize, headSize) {
+        function arrowHead(d, nodeTargetSize, bodySize, headSize) {
             var diffX = d.target.y - d.source.y;
             var diffY = d.target.x - d.source.x;
 
@@ -274,25 +274,25 @@
         };
 
         var d = {
-        	arrowhead: arrowhead,
-        	comet: comet,
-        	nail: nail,
-        	taffy: taffy,
-        	ribbon: ribbon,
-        	lineArc: lineArc,
-        	halfArrow: halfArrow
+          arrowHead: arrowHead,
+          comet: comet,
+          nail: nail,
+          taffy: taffy,
+          ribbon: ribbon,
+          lineArc: lineArc,
+          halfArrow: halfArrow
         };
 
         var project = {
-        	offset: offset,
-        	parallel: parallel
-        }
+          offset: offset,
+          parallel: parallel
+        };
 
         var mutate = {
-        	particle: particle
-        }
+          particle: particle
+        };
 
-        var version = "1.1.1";
+        var version = "1.1.2";
 
         exports.version = version;
         exports.d = d;
